@@ -7,7 +7,7 @@ function App() {
 
   const analyzeContent = async () => {
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze", {
+      const response = await fetch("https://ai-detector-api-fi1s.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
