@@ -45,10 +45,12 @@ function App() {
         fontFamily: "Arial",
       }}
     >
-      <h1>AI Content Detector</h1>
+      <h1>AI 뉴스 및 텍스트 판별기</h1>
 
-      <p>글, 뉴스, 이미지 링크를 분석하여 AI 생성 여부를 판별합니다.</p>
-
+      <p>
+      텍스트 또는 뉴스 기사 URL을 입력하세요.
+      입력된 내용 또는 기사 본문을 분석하여 AI 생성 가능성을 판단합니다.
+      </p>
       <div style={{ marginBottom: "20px" }}>
         <button onClick={() => setMode("text")}>글 분석</button>
         <button onClick={() => setMode("news")}>뉴스 분석</button>
